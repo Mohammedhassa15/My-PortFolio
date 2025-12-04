@@ -3,32 +3,31 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
-    title: "SaaS Landing Page",
-    description: "A beautiful landing page app using React and Tailwind.",
+    title: "DisasterConnect",
+    description: "A disaster management platform connecting volunteers and resources efficiently.",
     image: "/projects/project1.png",
-    tags: ["React", "TailwindCSS", "Supabase"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["React", "TailwindCSS", "Flask"],
+    demoUrl: "https://disaster-connect-one.vercel.app/",
+    githubUrl: "https://github.com/melaniemwendwa/DisasterConnect",
   },
   {
     id: 2,
-    title: "Orbit Analytics Dashboard",
+    title: "A CLI Banking Application",
     description:
-      "Interactive analytics dashboard with data visualization and filtering capabilities.",
+      "A command-line banking application that allows users to manage accounts and transactions.",
     image: "/projects/project2.png",
-    tags: ["TypeScript", "D3.js", "Next.js"],
-    demoUrl: "#",
-    githubUrl: "#",
+    tags: ["Python"],
+    githubUrl: "https://github.com/Mohammedhassa15/phase-3-project",
   },
   {
     id: 3,
-    title: "E-commerce Platform",
+    title: "Goal Planner E-commerce Site",
     description:
-      "Full-featured e-commerce platform with user authentication and payment processing.",
+      "An e-commerce platform for goal planners with payment integration and user accounts.",
     image: "/projects/project3.png",
     tags: ["React", "Node.js", "Stripe"],
-    demoUrl: "#",
-    githubUrl: "#",
+    demoUrl: "https://goal-planner-beta.vercel.app/",
+    githubUrl: "https://github.com/Mohammedhassa15/goal-planner",
   },
 ];
 
@@ -99,7 +98,7 @@ export const ProjectsSection = () => {
           <a
             className="cosmic-button w-fit flex items-center mx-auto gap-2"
             target="_blank"
-            href="https://github.com/machadop1407"
+            href="https://github.com/Mohammedhassa15"
           >
             Check My Github <ArrowRight size={16} />
           </a>
