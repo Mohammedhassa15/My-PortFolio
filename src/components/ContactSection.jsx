@@ -5,7 +5,6 @@ import {
   MapPin,
   Phone,
   Send,
-  
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useToast } from "@/hooks/use-toast";
@@ -26,7 +25,7 @@ export const ContactSection = () => {
     };
 
     try {
-      const res = await fetch("https://backend-portfolio-c9tk.onrender.com/api/contact", {
+      const res = await fetch("https://backend-portfolio-c9tk.onrender.com/api/contact-resend", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
