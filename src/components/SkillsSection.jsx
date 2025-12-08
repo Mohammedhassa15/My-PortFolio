@@ -9,13 +9,13 @@ const skills = [
   { name: "Database Design",  category: "backend" },
   { name: "SQLAlchemy", category: "backend" },
   { name: "Authentication (JWT, Sessions)", category: "backend" },
-  { name: "API Security Basics",  category: "backend" },
+  { name: "API Security ",  category: "backend" },
   { name: "PostgreSQL / SQLite",  category: "backend" },
 
   // Frontend (Basic Understanding)
   { name: "HTML/CSS", category: "frontend" },
   { name: "JavaScript Basics", category: "frontend" },
-  { name: "React Basics",  category: "frontend" },
+  { name: "React ",  category: "frontend" },
 
   // Tools (Useful for Backend Workflow)
   { name: "Git & GitHub", category: "tools" },

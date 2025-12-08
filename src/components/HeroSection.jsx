@@ -21,8 +21,8 @@ export const HeroSection = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-           I build reliable server-side solutions using modern backend technologies.
-           Specializing in API development and database management, I create systems that are secure, efficient, and ready to scale.
+          I build end-to-end applications that seamlessly integrate modern frontend experiences with reliable backend systems. 
+           Specializing in full-stack development, I create scalable, secure, and efficient solutions from the user interface down to the database.
           </p>
 
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">

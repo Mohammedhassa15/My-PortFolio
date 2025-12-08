@@ -40,10 +40,10 @@ export const AboutSection = () => {
                   <Code className="h-6 w-6 text-primary" />
                 </div>
                 <div className="text-left">
-                  <h4 className="font-semibold text-lg"> Backend Development</h4>
-                  <p className="text-muted-foreground">
-                     Building the core logic of applications through server-side programming,
-                     clean APIs, and efficient data flow using modern backend technologies.
+                  <h4 className="font-semibold text-lg"> Full-Stack Development</h4>
+                  <p className="text-muted-foreground"> Designing and implementing complete application systems, 
+                    combining robust server-side logic with dynamic, 
+                    responsive user interfaces for seamless end-to-end functionality.
                   </p>
                 </div>
               </div>
@@ -56,8 +56,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Database & Server Architecture</h4>
                   <p className="text-muted-foreground">
-                    Learning how to design and manage databases, structure servers, and ensure
-                    secure and reliable data storage for scalable applications.
+                    Developing efficient backend systems while integrating them seamlessly with frontend features, 
+                    ensuring secure, scalable data management and smooth end-to-end application performance.
                   </p>
                 </div>
               </div>
@@ -71,8 +71,8 @@ export const AboutSection = () => {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Authentication & API Security</h4>
                   <p className="text-muted-foreground">
-                     Gaining experience in implementing authentication, securing APIs, and
-                     protecting data through best security practices in backend development.
+                     Building secure authentication flows and protecting APIs across both frontend and backend layers, 
+                     applying best security practices to safeguard user data and application integrity.
                   </p>
                 </div>
               </div>
