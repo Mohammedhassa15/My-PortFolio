@@ -25,16 +25,19 @@ export const ContactSection = () => {
     };
 
     try {
-      const res = await fetch("https://backend-portfolio-c9tk.onrender.com/api/contact-resend", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(formData),
-      });
+      const res = await fetch(
+        "https://backend-portfolio-c9tk.onrender.com/api/contact",
+        {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(formData),
+        }
+      );
 
       if (res.ok) {
         toast({
           title: "Message sent!",
-          description: "Thank you for your message. I'll get back to you soon.",
+          description: "Thank you for your message. I will get back to you shortly.",
         });
         e.target.reset();
       } else {
@@ -43,12 +46,12 @@ export const ContactSection = () => {
           description: "Failed to send your message. Please try again later.",
         });
       }
-    } catch (err) {
+    } catch (error) {
       toast({
-        title: "Error",
-        description: "Failed to send your message. Please try again later.",
+        title: "Network Error",
+        description: "Could not reach the server. Please try again.",
       });
-      console.error(err);
+      console.error("Contact form error:", error);
     } finally {
       setIsSubmitting(false);
     }
@@ -189,9 +192,7 @@ export const ContactSection = () => {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className={cn(
-                  "cosmic-button w-full flex items-center justify-center gap-2"
-                )}
+                className={cn("cosmic-button w-full flex items-center justify-center gap-2")}
               >
                 {isSubmitting ? "Sending..." : "Send Message"}
                 <Send size={16} />
